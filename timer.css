@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+
+
+body{
+    background-color: #14213d;
+}
+h1{
+    text-align: center;
+    color: #fca311;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 3em;
+    text-decoration: underline;
+}
+p{
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #ffffff;
+    font-size: 1.7em;
+    text-align: center;
+}
+h3{
+    color: #ffffff;
+    font-size: 1.7em;
+    text-align: center;
+    margin: auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
