@@ -27,8 +27,10 @@ function countDown() {
             min = 60;
         }
         if (hr === 0 && min === 0 && sec === 0) {
-            display.innerText = "TIME OVER!!!!!";
-            clearInterval(x);
+            setTimeout(()=>{
+                display.innerText = "TIME OVER!!!!!";
+                clearInterval(x);
+            },1000);
         }
     }, 1000);
 }
